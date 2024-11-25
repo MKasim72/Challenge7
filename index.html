@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UltraEdit-An Idea Inc. Company</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Poppins:wght@400;500;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: "Roboto", sans-serif;
+        box-sizing: border-box;
+        scrollbar-width: none;
+      }
+      li {
+        list-style: none;
+      }
+      button {
+        cursor: pointer;
+      }
+      a {
+        text-decoration: none;
+        color: rgb(89, 89, 89);
+        font-size: 15px;
+      }
+      ul {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+      }
+      nav li :hover {
+        color: black;
+      }
+      header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 20px;
+      }
+      i {
+        color: black;
+      }
+      main {
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: center; */
+      }
+      .main-content {
+        text-align: center;
+        /* margin-top: 6rem; */
+        line-height: 1.5;
+      }
+      .main-content .main-txt {
+        font-size: 3rem;
+      }
+      .main-content span {
+        /* font-size: 2rem; */
+        font-weight: bold;
+      }
+      .msg-txt {
+        margin-top: 20px;
+        font-size: 22px;
+      }
+      .btn-main {
+        background-color: rgb(37, 160, 209);
+        padding: 15px 20px 15px 20px;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        font-weight: bold;
+        margin-top: 30px;
+        letter-spacing: 1px;
+      }
+      .advertisement {
+        display: flex;
+        /* justify-content: start; */
+        align-items: center;
+        margin-top: 90px;
+        gap: 10px;
+        /* padding: 15px 0 15px 280px; */
+        margin: 50px;
+        /* margin-left: -200px; */
+      }
+      .advertisement p {
+        font-size: 25px;
+        padding: 0 0 10px;
+        /* margin-left: -350px; */
+      }
+      .advertisement p span {
+        font-size: 15px;
+        font-weight: 300;
+      }
+      .cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        /* justify-items: center; */
+        /* row-gap: 50px; */
+        max-width: 70vw;
+        margin: auto;
+        /* border: none; */
+      }
+      .card {
+        padding: 23px;
+        text-align: center;
+        background-color: rgb(249, 246, 246);
+      }
+      .card button {
+        background-color: #008000;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+      }
+      .card p:nth-child(1) {
+        font-size: 25px;
+        font-weight: bold;
+        margin: 30px;
+      }
+      .copy_Txt {
+        margin: 15px;
+        letter-spacing: 2px;
+        font-size: 6px;
+      }
+      .copy_Txt span {
+        font-size: 15px;
+      }
+      footer {
+        padding: 20px;
+        background-color: #f0f0f0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+      footer img {
+        width: 180px;
+      }
+      footer .icons {
+        display: flex;
+        gap: 20px;
+      }
+      footer .icons i {
+        font-size: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="UE-Logo-1-removebg-preview.png" alt="" width="180" />
+
+      <nav>
+        <ul>
+          <li><a href="">Products</a></li>
+          <li><a href="">For Business</a></li>
+          <li><a href="">Resources</a></li>
+          <li><a href="">Support</a></li>
+          <li><a href="">Our Company</a></li>
+          <li>
+            <a href=""><i class="fa-solid fa-language"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="main-content">
+        <p class="main-txt">
+          Download <span>UltraEdit</span> for Windows
+          <img
+            src="https://tse4.mm.bing.net/th?id=OIP.eGemYQDoHmeZ9p7OFeNyRAAAAA&pid=Api&P=0&h=180"
+            alt=""
+            width="60px"
+          />
+        </p>
+
+        <p class="msg-txt">
+          Download and try UltraEdit before you buy it! This download includes
+          the full Windows <br />
+          version of the text editor.
+        </p>
+
+        <button class="btn-main">DOWNLOAD MAC OR LINUX VERSION</button>
+      </div>
+
+      <div class="advertisement">
+        <div>
+          <img src="UE_logo_2.png" alt="" width="70px" />
+        </div>
+        <div>
+          <p>
+            Download UltraEdit
+            <span>v2024.1 (released 2024-09-30) | Hotfix information </span>
+          </p>
+        </div>
+      </div>
+
+      <div class="cards">
+        <div class="card">
+          <p>English</p>
+          <button>Download 64-bit</button>
+          <p class="copy_Txt">
+            <span>SHA256</span><br />
+            3C783C0872319DE70343C2C79D9E0024FDA3F1DB472B8F1119343 D42190AAD8C
+          </p>
+        </div>
+
+        <div class="card">
+          <p>English</p>
+          <button>Download 64-bit</button>
+          <p class="copy_Txt">
+            <span>SHA256</span><br />
+            3C783C0872319DE70343C2C79D9E0024FDA3F1DB472B8F1119343<br />
+            D42190AAD8C
+          </p>
+        </div>
+
+        <div class="card">
+          <p>English</p>
+          <button>Download 64-bit</button>
+          <p class="copy_Txt">
+            <span>SHA256</span><br />
+            3C783C0872319DE70343C2C79D9E0024FDA3F1DB472B8F1119343<br />
+            D42190AAD8C
+          </p>
+        </div>
+
+        <div class="card">
+          <p>English</p>
+          <button>Download 64-bit</button>
+          <p class="copy_Txt">
+            <span>SHA256</span><br />
+            3C783C0872319DE70343C2C79D9E0024FDA3F1DB472B8F1119343<br />
+            D42190AAD8C
+          </p>
+        </div>
+
+        <div class="card">
+          <p>English</p>
+          <button>Download 64-bit</button>
+          <p class="copy_Txt">
+            <span>SHA256</span><br />
+            3C783C0872319DE70343C2C79D9E0024FDA3F1DB472B8F1119343<br />
+            D42190AAD8C
+          </p>
+        </div>
+
+        <div class="card">
+          <p>English</p>
+          <button>Download 64-bit</button>
+          <p class="copy_Txt">
+            <span>SHA256</span><br />
+            3C783C0872319DE70343C2C79D9E0024FDA3F1DB472B8F1119343<br />
+            D42190AAD8C
+          </p>
+        </div>
+
+        <div class="card">
+          <p>English</p>
+          <button>Download 64-bit</button>
+          <p class="copy_Txt">
+            <span>SHA256</span><br />
+            3C783C0872319DE70343C2C79D9E0024FDA3F1DB472B8F1119343<br />
+            D42190AAD8C
+          </p>
+        </div>
+
+        <div class="card">
+          <p>English</p>
+          <button>Download 64-bit</button>
+          <p class="copy_Txt">
+            <span>SHA256</span><br />
+            3C783C0872319DE70343C2C79D9E0024FDA3F1DB472B8F1119343<br />
+            D42190AAD8C
+          </p>
+        </div>
+
+        <div class="card">
+          <p>English</p>
+          <button>Download 64-bit</button>
+          <p class="copy_Txt">
+            <span>SHA256</span><br />
+            3C783C0872319DE70343C2C79D9E0024FDA3F1DB472B8F1119343<br />
+            D42190AAD8C
+          </p>
+        </div>
+
+        <div class="card">
+          <p>English</p>
+          <button>Download 64-bit</button>
+          <p class="copy_Txt">
+            <span>SHA256</span><br />
+            3C783C0872319DE70343C2C79D9E0024FDA3F1DB472B8F1119343<br />
+            D42190AAD8C
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <img src="UE-Logo-1-removebg-preview.png" alt="" />
+      <div class="icons">
+        <li>
+          <a href="https://www.facebook.com/ue.ue/" target="_blank"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+        </li>
+
+        <li>
+          <a href="https://www.instagram.com/ue.ue/" target="_blank"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </li>
+
+        <li>
+          <a href="https://www.youtube.com/c/UEUE" target="_blank"
+            ><i class="fa-brands fa-youtube"></i
+          ></a>
+        </li>
+
+        <li>
+          <a href="https://twitter.com/UEUE" target="_blank"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+        </li>
+        <li>
+          <a href=""><i class="fa-brands fa-github"></i></a>
+        </li>
+      </div>
+    </footer>
+  </body>
+</html>
